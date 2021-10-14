@@ -9,7 +9,7 @@ import Login from "./components/Login";
 
 const App = () => {
   return (
-    <main className="main">
+    <main className="container">
       <Logo />
       <Login />
     </main>

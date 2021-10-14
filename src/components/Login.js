@@ -5,7 +5,7 @@ import "../styles/app.css";
 
 const Login = () => {
   return (
-    <main>
+    <div>
       <form className="login" autocomplete>
         <input
           placeholder="Correo electrónico o número de móvil"
@@ -21,7 +21,7 @@ const Login = () => {
         </div>
         <button type="#">Crear cuenta</button>
       </form>
-    </main>
+    </div>
   );
 };
 export default Login;

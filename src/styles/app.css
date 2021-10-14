@@ -5,24 +5,33 @@ body {
 
 main {
   display: flex;
+  align-items: center;
+  height: 10px;
+}
+
+.container {
+  margin-top: 200px;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 50vh;
 }
-
-.main img {
+.container img {
   width: 3rem;
   display: flex;
 }
 
 .login {
+  width: 400px;
+  margin-top: 50px;
   color: blue;
   display: flex;
   flex-direction: column;
   padding: 0px 42px 36px;
 }
-
+input {
+  height: 40px;
+}
 /* RESPONSIVE RULES */
 @media only screen and (max-width: 330px) {
   .main img {
