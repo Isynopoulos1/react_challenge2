@@ -3,16 +3,24 @@ body {
   background-color: white;
 }
 
-.main {
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 50vh;
 }
 
 .main img {
-  width: 20rem;
+  width: 3rem;
   display: flex;
+}
+
+.login {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 42px 36px;
 }
 
 /* RESPONSIVE RULES */
