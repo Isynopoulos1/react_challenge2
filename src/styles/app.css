@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main img {
+  width: 20rem;
+  display: flex;
+}
+
+/* RESPONSIVE RULES */
+@media only screen and (max-width: 330px) {
+  .main img {
+    width: 10rem;
+  }
+}
