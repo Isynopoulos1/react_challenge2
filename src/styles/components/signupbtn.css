@@ -3,12 +3,18 @@
   text-decoration: none;
   font-family: helvetica;
   font-size: 15px;
-  background-color: #0070ba;
+  background-color: white;
   transition: background-color 0.5s;
-  color: white;
+  color: #0070ba;
   font-weight: bold;
   text-align: center;
-  border: none;
+  border: 1px solid #0070ba;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 50px;
+  width: 350px;
+  transition: 0.3s;
+}
+.signup button:hover {
+  transition: 0.4s ease;
+  border: 2px solid #0f54a9;
 }

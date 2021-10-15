@@ -5,3 +5,4 @@ const SignupBtn = () => {
     </div>
   );
 };
+export default SignupBtn;

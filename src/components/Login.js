@@ -2,6 +2,7 @@ import React from "react";
 
 // IMPORT STYLE
 import "../styles/app.css";
+import "../styles/components/signupbtn.css";
 
 //IMPORT COMPONENTS
 import Logo from "./Logo";
@@ -20,6 +21,7 @@ const Login = () => {
         <input placeholder="Contraseña" type="password" />
         <p>¿Has olvidado la contraseña?</p>
         <LoginBtn />
+        <SignupBtn />
       </form>
     </div>
   );

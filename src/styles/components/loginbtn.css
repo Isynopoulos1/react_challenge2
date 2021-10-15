@@ -13,3 +13,6 @@
   border-radius: 50px;
   width: 350px;
 }
+.btn-signup button:hover {
+  background-color: #0f54a9;
+}
