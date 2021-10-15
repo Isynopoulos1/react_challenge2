@@ -1,0 +1,44 @@
+.wrapper {
+  border: 1px solid #eaeced;
+  border-radius: 10px;
+  width: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  margin-top: 2rem;
+  width: 35px;
+  display: flex;
+}
+
+.login {
+  width: 350px;
+  margin-top: 30px;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 42px 36px;
+}
+input {
+  height: 50px;
+  margin-top: 20px;
+  border: 1px solid #9da3a6;
+  border-radius: 4px;
+}
+.login p {
+  color: #0070ba;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+/* RESPONSIVE RULES */
+@media only screen and (max-width: 330px) {
+}

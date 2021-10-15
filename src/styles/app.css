@@ -6,36 +6,4 @@ body {
 main {
   display: flex;
   align-items: center;
-  height: 10px;
-}
-
-.container {
-  margin-top: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.wrapper {
-  border: 1px solid black;
-}
-.login {
-  width: 400px;
-  margin-top: 50px;
-  color: blue;
-  display: flex;
-  flex-direction: column;
-  padding: 0px 42px 36px;
-}
-input {
-  height: 40px;
-  margin-top: 10px;
-}
-
-/* RESPONSIVE RULES */
-@media only screen and (max-width: 330px) {
-  .main img {
-    width: 10rem;
-  }
 }

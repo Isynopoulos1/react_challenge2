@@ -1,0 +1,15 @@
+.btn-signup button {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: helvetica;
+  font-size: 15px;
+  background-color: #0070ba;
+  transition: background-color 0.5s;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  padding: 15px;
+  border-radius: 50px;
+  width: 350px;
+}

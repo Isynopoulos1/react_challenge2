@@ -5,6 +5,7 @@ import "../styles/app.css";
 
 //IMPORT COMPONENTS
 import Logo from "./Logo";
+import Button from "./Button";
 
 const Login = () => {
   return (
@@ -17,13 +18,7 @@ const Login = () => {
         />
         <input placeholder="Contraseña" type="password" />
         <p>¿Has olvidado la contraseña?</p>
-        <button type="submit">Iniciar sesión</button>
-        <div class="signup-container">
-          <div class="signup-wrapper">
-            <span>o</span>
-          </div>
-        </div>
-        <button type="#">Crear cuenta</button>
+        <Button />
       </form>
     </div>
   );
