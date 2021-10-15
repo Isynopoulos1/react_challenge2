@@ -3,9 +3,13 @@ import React from "react";
 // IMPORT STYLE
 import "../styles/app.css";
 
+//IMPORT COMPONENTS
+import Logo from "./Logo";
+
 const Login = () => {
   return (
-    <div>
+    <div className="wrapper">
+      <Logo />
       <form className="login" autocomplete>
         <input
           placeholder="Correo electrónico o número de móvil"
