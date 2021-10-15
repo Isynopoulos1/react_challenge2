@@ -1,9 +1,9 @@
 import React from "react";
 
 // IMPORT STYLE
-import "../styles/components/button.css";
+import "../styles/components/loginbtn.css";
 
-const Button = () => {
+const LoginBtn = () => {
   return (
     <div className="btn-signup">
       <button type="submit">Iniciar sesión</button>
@@ -12,9 +12,8 @@ const Button = () => {
           <span>o</span>
         </div>
       </div>
-      <button type="#">Crear cuenta</button>
     </div>
   );
 };
 
-export default Button;
+export default LoginBtn;

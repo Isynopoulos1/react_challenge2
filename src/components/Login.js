@@ -5,7 +5,8 @@ import "../styles/app.css";
 
 //IMPORT COMPONENTS
 import Logo from "./Logo";
-import Button from "./Button";
+import LoginBtn from "./LoginBtn";
+import SignupBtn from "./SignupBtn";
 
 const Login = () => {
   return (
@@ -18,7 +19,7 @@ const Login = () => {
         />
         <input placeholder="Contraseña" type="password" />
         <p>¿Has olvidado la contraseña?</p>
-        <Button />
+        <LoginBtn />
       </form>
     </div>
   );
