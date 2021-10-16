@@ -8,6 +8,7 @@ import "../styles/components/signupbtn.css";
 import Logo from "./Logo";
 import LoginBtn from "./LoginBtn";
 import SignupBtn from "./SignupBtn";
+import Selector from "./Selector";
 
 const Login = () => {
   return (
@@ -22,6 +23,7 @@ const Login = () => {
         <p>¿Has olvidado la contraseña?</p>
         <LoginBtn />
         <SignupBtn />
+        <Selector />
       </form>
     </div>
   );

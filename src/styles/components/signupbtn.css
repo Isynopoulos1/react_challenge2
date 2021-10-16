@@ -12,9 +12,8 @@
   padding: 15px;
   border-radius: 50px;
   width: 350px;
-  transition: 0.3s;
 }
 .signup button:hover {
-  transition: 0.4s ease;
+  transition: 0.3s ease;
   border: 2px solid #0f54a9;
 }
