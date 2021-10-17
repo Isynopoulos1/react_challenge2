@@ -3,6 +3,7 @@ import React from "react";
 // IMPORT STYLE
 import "../styles/app.css";
 import "../styles/components/signupbtn.css";
+import "../styles/components/selector.css";
 
 //IMPORT COMPONENTS
 import Logo from "./Logo";

@@ -14,7 +14,6 @@
   align-items: center;
 }
 .container img {
-  margin-top: 2rem;
   width: 35px;
   display: flex;
 }
@@ -29,9 +28,10 @@
 }
 input {
   height: 50px;
-  margin-top: 20px;
+
   border: 1px solid #9da3a6;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 .login p {
   color: #0070ba;

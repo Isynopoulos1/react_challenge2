@@ -1,9 +1,19 @@
 .selector {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .selector img {
   width: 25px;
+}
+.language {
+  display: flex;
+  grid-gap: 10px;
+}
+.language li {
+  font-family: helvetica;
+  color: #666;
+  font-size: 20px;
+  font-size: 12px;
+  font-weight: bold;
 }

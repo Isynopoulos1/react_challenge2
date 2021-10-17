@@ -1,4 +1,4 @@
-.btn-signup button {
+.btn-login button {
   cursor: pointer;
   text-decoration: none;
   font-family: helvetica;
@@ -12,7 +12,8 @@
   padding: 15px;
   border-radius: 50px;
   width: 350px;
+  margin-top: 30px;
 }
-.btn-signup button:hover {
+.btn-login button:hover {
   background-color: #0f54a9;
 }
