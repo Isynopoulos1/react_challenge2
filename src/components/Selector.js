@@ -6,7 +6,7 @@ import "../reset.css";
 
 const Selector = () => {
   return (
-    <div className="selector">
+    <div className="selector-flag">
       <img
         src="https://ik.imagekit.io/ppayaz/ppayaz-website/flag_fQzludPB8.png?updatedAt=1634221524609"
         alt="flag"
