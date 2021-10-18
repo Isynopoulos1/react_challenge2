@@ -6,6 +6,7 @@
   flex-direction: column;
   padding: 20px;
   margin-bottom: 10px;
+  width: 400px;
 }
 .container {
   margin-top: 100px;
@@ -41,5 +42,9 @@ input {
 }
 
 /* RESPONSIVE RULES */
-@media only screen and (max-width: 330px) {
+
+@media (max-width: 760px) {
+  .wrapper {
+    border: none;
+  }
 }
