@@ -16,12 +16,14 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="container">
-      <Login />
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <main>
+      <div className="container">
+        <Login />
+        <footer>
+          <Footer />
+        </footer>
+      </div>
+    </main>
   );
 };
 

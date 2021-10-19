@@ -1,17 +1,22 @@
+main {
+  width: 100%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
 .wrapper {
-  border: 1px solid #eaeced;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
-  margin-bottom: 10px;
-  width: 400px;
 }
 .container {
-  margin-top: 100px;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  border: 1px solid #eaeced;
+  border-radius: 10px;
+  height: 600px;
+  width: 400px;
+  margin-top: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -27,6 +32,7 @@
   display: flex;
   flex-direction: column;
   padding: 0px 42px 36px;
+  position: absolute;
 }
 input {
   height: 50px;
