@@ -10,7 +10,7 @@
   border: 1px solid #0070ba;
   padding: 15px;
   border-radius: 50px;
-  width: 350px;
+  width: 100%;
 }
 .signup button:hover {
   transition: 0.3s ease;

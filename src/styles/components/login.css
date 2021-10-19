@@ -21,7 +21,7 @@
 }
 
 .login {
-  width: 350px;
+  width: 70%;
   margin-top: 30px;
   color: blue;
   display: flex;
@@ -36,6 +36,7 @@ input {
   margin-bottom: 20px;
 }
 .login p {
+  text-align: center;
   color: #0070ba;
   font-family: helvetica;
   font-weight: bold;
@@ -46,5 +47,8 @@ input {
 @media (max-width: 760px) {
   .wrapper {
     border: none;
+  }
+  .login {
+    width: 150%;
   }
 }
