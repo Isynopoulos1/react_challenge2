@@ -1,5 +1,6 @@
 main {
   width: 100%;
+  height: auto;
   display: flex;
   position: relative;
   justify-content: center;
@@ -15,11 +16,12 @@ main {
   align-items: center;
   border: 1px solid #eaeced;
   border-radius: 10px;
-  height: 600px;
-  width: 400px;
-  margin-top: 100px;
+  height: 550px;
+  width: 500px;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .container img {
   width: 35px;
@@ -38,7 +40,7 @@ input {
   border: 1px solid #9da3a6;
   border-radius: 4px;
   margin-bottom: 20px;
-  width: 100%;
+  width: 140%;
 }
 .login p {
   text-align: center;

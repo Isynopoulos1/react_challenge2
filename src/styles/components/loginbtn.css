@@ -1,3 +1,8 @@
+.btn-login {
+  width: 140%;
+  display: flex;
+  flex-direction: column;
+}
 .btn-login button {
   cursor: pointer;
   text-decoration: none;
@@ -11,12 +16,13 @@
   border: none;
   padding: 15px;
   border-radius: 50px;
-  width: 100%;
   margin-top: 30px;
 }
+
 .btn-login button:hover {
   background-color: #0f54a9;
 }
+
 .signup-container {
   position: relative;
   border-top: 1px solid #cbd2d6;
@@ -31,6 +37,7 @@
   font-family: helvetica;
   font-weight: lighter;
 }
+
 .signup-container span {
   padding: 0.5rem;
   background-color: #fff;
@@ -38,9 +45,9 @@
 }
 @media (max-width: 760px) {
   .btn-login {
-    width: 100%;
+    width: 140%;
   }
   .signup {
-    width: 100%;
+    width: 140%;
   }
 }

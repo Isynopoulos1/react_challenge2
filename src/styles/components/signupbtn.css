@@ -1,3 +1,7 @@
+.signup {
+  width: 140%;
+  display: flex;
+}
 .signup button {
   cursor: pointer;
   font-family: helvetica;
@@ -10,7 +14,7 @@
   border: 1px solid #0070ba;
   padding: 15px;
   border-radius: 50px;
-  width: 100%;
+  width: 140%;
 }
 .signup button:hover {
   transition: 0.3s ease;
