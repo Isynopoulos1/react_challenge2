@@ -8,6 +8,7 @@ main {
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: absolute;
 }
 .container {
   display: flex;
@@ -26,20 +27,18 @@ main {
 }
 
 .login {
-  width: 70%;
+  align-items: center;
   margin-top: 30px;
   color: blue;
   display: flex;
   flex-direction: column;
-  padding: 0px 42px 36px;
-  position: absolute;
 }
 input {
   height: 50px;
-
   border: 1px solid #9da3a6;
   border-radius: 4px;
   margin-bottom: 20px;
+  width: 100%;
 }
 .login p {
   text-align: center;
@@ -51,10 +50,10 @@ input {
 /* RESPONSIVE RULES */
 
 @media (max-width: 760px) {
-  .wrapper {
+  .container {
     border: none;
   }
   .login {
-    width: 150%;
+    width: 200%;
   }
 }

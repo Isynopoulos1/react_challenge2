@@ -36,3 +36,11 @@
   background-color: #fff;
   color: grey;
 }
+@media (max-width: 760px) {
+  .btn-login {
+    width: 100%;
+  }
+  .signup {
+    width: 100%;
+  }
+}
