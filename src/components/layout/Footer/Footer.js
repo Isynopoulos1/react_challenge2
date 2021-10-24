@@ -4,19 +4,13 @@ import React from "react";
 import { FooterWrapper, FooterList, FooterItem } from "./Footer.styles";
 
 const Footer = () => {
-  const list = [
-    "Contactos",
-    "Privacidad",
-    "Acuerdos legales",
-    "Mundo",
-    "isele et erwan"
-  ];
+  const list = ["Contactos", "Privacidad", "Acuerdos legales", "Mundo"];
 
   return (
     <FooterWrapper>
       <FooterList>
-        {list.map(item => (
-          <FooterItem>{item}</FooterItem>
+        {list.map((item, i) => (
+          <FooterItem key={i}>{item}</FooterItem>
         ))}
         {/* <FooterItem>Contactos</FooterItem>
         <FooterItem>Privacidad</FooterItem>
