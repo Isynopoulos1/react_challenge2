@@ -9,6 +9,8 @@ import {
 } from "./Selector.styles";
 
 const Selector = () => {
+  const languages = ["Español", "English"];
+
   return (
     <SelectorWrapper>
       <SelectorImage
@@ -16,8 +18,8 @@ const Selector = () => {
         alt="flag"
       />
       <SelectorList>
-        <SelectorItem>Español</SelectorItem>
-        <SelectorItem>English</SelectorItem>
+        <SelectorItem>{languages[0]}</SelectorItem>
+        <SelectorItem>{languages[1]}</SelectorItem>
       </SelectorList>
     </SelectorWrapper>
   );

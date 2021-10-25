@@ -2,7 +2,6 @@ import React from "react";
 
 // IMPORT STYLE
 import { LoginMain, LoginWrapper, LoginForm, LoginLink } from "./Login.styles";
-import "../../../styles/components/selector.css";
 
 //IMPORT COMPONENTS
 import Logo from "../../elements/Logo/Logo";
@@ -27,8 +26,9 @@ const Login = () => {
           <LoginLink href="https://www.paypal.com/authflow/password-recovery/?country.x=ES&locale.x=es_ES&redirectUri=%252Fsignin%252F">
             ¿Has olvidado la contraseña?
           </LoginLink>
-          <Button label="Iniciar sesión" />
-          <Button label="Crear cuenta" />
+
+          <Button label="Iniciar sesión" icon="attachment" />
+          <Button label="Crear cuenta" icon="ios_share" />
         </LoginForm>
         <Selector />
       </LoginWrapper>

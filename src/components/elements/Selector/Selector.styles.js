@@ -25,4 +25,8 @@ export const SelectorItem = styled.li`
   font-size: 20px;
   font-size: 12px;
   font-weight: bold;
+  &:first-child {
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+  }
 `;
