@@ -4,8 +4,13 @@ import PropTypes from "prop-types";
 // IMPORT STYLE
 import { ButtonStyle } from "./Button.styles";
 
-const Button = ({ label }) => {
-  return <ButtonStyle>{label}</ButtonStyle>;
+const Button = ({ label, icon }) => {
+  return (
+    <ButtonStyle>
+      <span class="material-icons">{icon}</span>
+      {label}
+    </ButtonStyle>
+  );
 };
 
 Button.propTypes = {
